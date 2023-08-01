@@ -63,3 +63,16 @@
   border-radius: 5px;
   cursor: pointer;
 }
+@media screen and (max-width: 450px) {
+  .kanban {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .kanban__column {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
